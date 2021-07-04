@@ -72,7 +72,7 @@ header('Content-Type: text/html; charset=utf-8');
       	function butotnClick(){
     		let name = prompt('タスクは終了しましたか？');
     		console.log(name);
-			window.location.href = 'test.php';
+			window.location.href = 'judge.php';
 		}
 
    		let button = document.getElementById('judge_button');

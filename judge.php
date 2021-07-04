@@ -34,7 +34,7 @@
         $stmt->execute();
 	}
 	$row=$stmt->fetch();
-//	print_r($row);
+	print_r($row);
 	echo $row["id"];
 
 	$sql = "INSERT INTO dice (result, task_id) VALUES (:result, :task_id)";
